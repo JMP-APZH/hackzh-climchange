@@ -7,9 +7,11 @@ const HomePage = () => {
   return (
     <>
       <MetaTags title="Home" description="Home page" />
-      <iframe src="http://localhost:8910/novel">
-
+      <div className='flex justify-start h-screen'>
+      <iframe width="100%" length="100%" src="http://localhost:8910/novel">
       </iframe>
+      </div>
+
       <div className='flex justify-start items-center flex-col h-screen'>
       <div
         // className='bg-red-300 h-screen'

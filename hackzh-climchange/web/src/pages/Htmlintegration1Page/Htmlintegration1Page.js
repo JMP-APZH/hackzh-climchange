@@ -1,11 +1,10 @@
 import { Link, routes } from '@redwoodjs/router'
 import { MetaTags } from '@redwoodjs/web'
-import { Parser }
+//import { Parser } from 
 
 
-const rawHTML = `
-
-`;
+/*const rawHTML = `
+`;*/
 
 const Htmlintegration1Page = () => {
   return (
