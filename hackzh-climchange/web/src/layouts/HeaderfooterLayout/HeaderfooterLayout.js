@@ -8,7 +8,7 @@ const HeaderfooterLayout = ({ children }) => {
       <header className="flex flex-col items-center">
       <div className="">
         <h1 className="text-4xl font-bold p-4 underline">
-        <Link to={routes.home()}>Project RedwoodJS 2</Link>
+        <Link to={routes.home()}>Challenge#18</Link>
         </h1>
       </div>
       <div className="p-4">
