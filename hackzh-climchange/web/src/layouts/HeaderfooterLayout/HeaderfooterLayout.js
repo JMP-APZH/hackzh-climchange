@@ -13,12 +13,20 @@ const HeaderfooterLayout = ({ children }) => {
       </div>
       <div className="p-4">
         <nav className="">
-          <ul className="">
+          <ul className="flex flex-row space-x-4">
             <li className="text-center w-36 rounded-md font-bold bg-sky-500 hover:bg-sky-300">
               <Link
                 className=""
                 to={routes.home()}>Home</Link>
             </li>
+
+            <li className="text-center w-36 rounded-md font-bold bg-sky-500 hover:bg-sky-300">
+
+              <Link
+              className=""
+              to={routes.htmlintegration1()}>HTML Integration</Link>
+            </li>
+
             {/* <li className="text-center w-36 rounded-md font-bold bg-sky-500 hover:bg-sky-300">
               <Link to={routes.newUser()}>New User</Link>
             </li>
@@ -161,7 +169,7 @@ const HeaderfooterLayout = ({ children }) => {
         </div>
       </div>
     </footer>
-  
+
 
       </div>
   </>
