@@ -2,7 +2,7 @@ import React from "react";
 
 function TitleScreen(props) {
   return (
-    <div className="overlay" id="title-overlay">
+    <div id="title-overlay">
       <div id="title-screen-header">
         <div id="logo">Future and Past depending on climate change</div>
         <ul id="menu">

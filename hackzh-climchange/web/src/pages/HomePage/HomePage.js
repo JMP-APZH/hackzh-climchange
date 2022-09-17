@@ -1,12 +1,15 @@
 import { Link, routes } from '@redwoodjs/router'
 import { MetaTags } from '@redwoodjs/web'
 import climatechangebackgrounder from 'web/src/assets/climate-change-backgrounder.jpg'
+//import App from '../../AppNovel.js'
 
 const HomePage = () => {
   return (
     <>
       <MetaTags title="Home" description="Home page" />
+      <iframe src="http://localhost:8910/novel">
 
+      </iframe>
       <div className='flex justify-start items-center flex-col h-screen'>
       <div
         // className='bg-red-300 h-screen'

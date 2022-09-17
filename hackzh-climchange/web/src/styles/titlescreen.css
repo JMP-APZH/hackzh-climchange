@@ -9,7 +9,8 @@
 }
 
 #title-screen-header {
-  position: absolute;
+  overflow: auto;
+  position: fixed;
   top: 75%;
   left: 50%;
   transform: translate(-50%, -75%);

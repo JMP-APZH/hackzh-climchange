@@ -8,10 +8,7 @@ const NovelPage = () => {
       <MetaTags title="Novel" description="Novel page" />
      
       <h1>NovelPage</h1>
-      <div className="container" >
          <App />
-      </div>
-      
       <p>
         Find me in <code>./web/src/pages/NovelPage/NovelPage.js</code>
       </p>
