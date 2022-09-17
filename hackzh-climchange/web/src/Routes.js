@@ -16,6 +16,7 @@ const Routes = () => {
   return (
     <Router>
       <Route path="/novel" page={NovelPage} name="novel" />
+      <Route path="/htmlintegration1" page={Htmlintegration1Page} name="htmlintegration1" />
       <Set wrap={HeaderfooterLayout}>
         <Route path="/" page={HomePage} name="home" />
         <Route notfound page={NotFoundPage} />
