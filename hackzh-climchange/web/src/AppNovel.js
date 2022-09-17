@@ -16,6 +16,7 @@ import RenderFrame from "./componentsn/RenderFrame";
 import MenuButtons from "./componentsn/MenuButtons";
 import SaveLoadMenu from "./componentsn/SaveLoadMenu";
 // CSS
+
 import "./styles/config.css";
 import "./styles/container.css";
 import "./styles/backlog.css";
@@ -26,7 +27,7 @@ import "./styles/saveloadmenu.css";
 import "./styles/sprites.css";
 import "./styles/textbox.css";
 import "./styles/titlescreen.css";
-import "./styles/transitions.css";
+import "./styles/transitions.css"; 
 
 const INITIAL_STATE = {
   bgmVolume: 80,

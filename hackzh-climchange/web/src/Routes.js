@@ -15,6 +15,7 @@ import HeaderfooterLayout from './layouts/HeaderfooterLayout/HeaderfooterLayout'
 const Routes = () => {
   return (
     <Router>
+      <Route path="/novel" page={NovelPage} name="novel" />
       <Set wrap={HeaderfooterLayout}>
         <Route path="/" page={HomePage} name="home" />
         <Route notfound page={NotFoundPage} />

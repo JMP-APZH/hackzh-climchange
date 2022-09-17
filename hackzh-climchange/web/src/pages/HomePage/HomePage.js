@@ -1,19 +1,12 @@
 import { Link, routes } from '@redwoodjs/router'
 import { MetaTags } from '@redwoodjs/web'
 import climatechangebackgrounder from 'web/src/assets/climate-change-backgrounder.jpg'
-import  App  from '../../AppNovel.js'
 
 const HomePage = () => {
   return (
     <>
-    <div className="container" >
-         <App />
-      </div>
-
       <MetaTags title="Home" description="Home page" />
-      <p>
 
-      </p>
       <div className='flex justify-start items-center flex-col h-screen'>
       <div
         // className='bg-red-300 h-screen'
@@ -48,8 +41,8 @@ const HomePage = () => {
             onSubmit={() => {}}
             />
         </form>
-      
       </div>
+
       {/* <p>
         Find me in <code>./web/src/pages/HomePage/HomePage.js</code>
       </p> */}
