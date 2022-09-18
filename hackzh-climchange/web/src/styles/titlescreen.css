@@ -9,12 +9,13 @@
 }
 
 #title-screen-header {
-  overflow: auto;
-  position: fixed;
-  top: 75%;
+  overflow: visible;
+  position: absolute;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -75%);
   width: 100%;
+  length: 100%;
 }
 #logo {
   width: 100%;
