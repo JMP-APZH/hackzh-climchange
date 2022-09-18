@@ -34,13 +34,7 @@ let story = [
   
   // /Effects
   { routeBegins: "showEffects", sprite: bn, text: "In the worst case scenario where we decide as species to stand idle the wildlife we love" },
-  { spriteEffect: "shake", text: 'spriteEffect: "shake"' },
-  { spriteEffect: "shrink", text: 'spriteEffect: "shrink"' },
-  {
-    spriteEffect: "shrink",
-    text:
-      "Before I grow back, one thing to note is that the sprite can stay in its altered state if the effect is continuously set."
-  },
+  { spriteEffect: "shake", text: '*shake*' },
 
   { spriteEffect: "shrink", text: "and their habitat will be destroyed, leading to mass species extinction.  " },
   { spriteEffect: "shrink", sprite: bn, text: "Superstorms, drought, and heat waves would become increasingly common and more extreme, leading to major health crises and illness. " },
