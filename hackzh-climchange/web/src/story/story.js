@@ -4,11 +4,9 @@ const entrance = require("./bg/entrance.jpeg");
 // bgm
 //const take = require("./bgm/take.mp3");
 // speakers
-const b = "Block";
+const b = "Swiss Climate";
 // sprites
-const bn = require("./sprites/block-neutral.png");
-const bh = require("./sprites/block-happy.png");
-const bp = require("./sprites/block-pout.png");
+const bn = require("./sprites/swiss.png");
 
 let story = [
   {
@@ -16,57 +14,27 @@ let story = [
     //bgm: take,
     sprite: bn,
     speaker: b,
-    text: "In this demo, we'll go over through the majority of the features that this application offers."
+    text: "Our planet is suffering"
   },
   {
-    text: "You can see how it's applied in the repository's \"story\" folder, so follow along if you'd like."
+    text: "And it’s up to us to save"
   },
   {
-    text: "Before we split into the specific features, let's go through the fundamentals."
-  },
-  {
-    text:
-      "When writing a visual novel with this application, you can just focus on two files: `story.js` and `choices.js`."
+    text: "To take action"
   },
   {
     text:
-      "However, if you plan to write something without any choices like a linear visual novel, then you don't need to worry about `choices.js`."
+      "We can sit down and come up with excuses, 'what can I do?', 'Why do I care?'"
   },
-  { text: "The writing will take place in `story.js`." },
-  { text: "Let's begin with the sprite properties." },
-  { text: "At max, we can only have three sprites on the screen." },
-  { text: "You can set just one position like I'm doing right now." },
-  {
-    spriteLeft: bp,
-    spriteRight: bh,
-    text: "Or you can use all three positions simultaneously."
-  },
-  {
-    spriteLeft: "",
-    spriteRight: "",
-    text: "We can also have sound effects and voices as well."
-  },
-  { text: "For example..." },
-  { speaker: b, text: "And voices are done in the same manner." },
-  {
-    sprite: bh,
-    text: "Okay, looks like we're done with the fundamentals."
-  },
-  {
-    sprite: bn,
-    text: "It's a little short, but it can do what you need for the most part."
-  },
-  { text: "Anyway, let's diverge to some specific features." },
-  
+  { text: "Together we can!" },
+  { text: "Together we will make a better future for our planet." },
+
   //first options of choices
   { choicesExist: true, receiveJump: "features" },
   
   // /Effects
-  { routeBegins: "showEffects", sprite: bh, text: "There are some preset effects at the moment." },
-  { speaker: "", spriteEffect: "bounce", text: 'spriteEffect: "bounce"' },
+  { routeBegins: "showEffects", sprite: bn, text: "In the worst case scenario where we decide as species to stand idle the wildlife we love" },
   { spriteEffect: "shake", text: 'spriteEffect: "shake"' },
-  { spriteEffect: "grow", text: 'spriteEffect: "grow"' },
-  { spriteEffect: "shrink-back", text: 'spriteEffect: "shrink-back"' },
   { spriteEffect: "shrink", text: 'spriteEffect: "shrink"' },
   {
     spriteEffect: "shrink",
@@ -74,92 +42,65 @@ let story = [
       "Before I grow back, one thing to note is that the sprite can stay in its altered state if the effect is continuously set."
   },
 
-  { spriteEffect: "shrink", text: "A drawback is that when the sprite changes..." },
-  { spriteEffect: "shrink", sprite: bn, text: "It reanimates." },
+  { spriteEffect: "shrink", text: "and their habitat will be destroyed, leading to mass species extinction.  " },
+  { spriteEffect: "shrink", sprite: bn, text: "Superstorms, drought, and heat waves would become increasingly common and more extreme, leading to major health crises and illness. " },
   {
     spriteEffect: "shrink",
-    text: "The solution is to continuously apply a non-animated version of the effect after the initial animation."
+    text: "Agricultural production would plummet, likely leading to global food shortages and famine."
   },
   {
     spriteEffect: "shrunk",
-    text: 'So in this case, when `spriteEffect` is being set to "shrunk" instead of "shrink"...'
+    text: 'We are now witnessing the huge reduction of water while hiking,'
   },
-  { sprite: bh, spriteEffect: "shrunk", text: "It doesn't reanimate." },
+  { sprite: bn, spriteEffect: "shrunk", text: "during heatwaves and all of this is due to 2 degrees rise in temperature.  " },
 
   {
     spriteEffect: "shrunk",
     sprite: bn,
     text:
-      'The only difference between "shrink" and "shrunk" is that "shrunk" does not have the animation property in the CSS while "shrink" does.'
+      'Now imagine what our future would be if it gets worse.'
   },
   {
     spriteEffect: "grow-back",
     sprite: bn,
-    text: "Anyway, `spriteLeft` and `spriteRight` also have their own effect functions."
+    text: "RCP 8.5(worst case) to follow..."
   },
 
-  { text: "For example..." },
-  {
-    speaker: "",
-    sprite: "",
-    spriteLeft: bn,
-    spriteRight: bn,
-    spriteLeftEffect: "grow",
-    spriteRightEffect: "shake",
-    text: 'spriteLeftEffect: "grow", spriteRightEffect: "shake"'
-  },
-  {
-    speaker: b,
-    spriteRight: "",
-    spriteLeftEffect: "grown",
-    text: "The effect property simply uses the value as its CSS class."
-  },
-  {
-    spriteLeft: "",
-    sprite: bh,
-    text: "That means you can also write your own effects as well."
-  },
-  {
-    text: "Just write the class in the effects.css file and set the effect value to that in a string.",
-    jumpTo: "features"
-  },
 
-  // /Transitions
+  // /Best Case Scenario
   {
     routeBegins: "showTransitions",
     sprite: "",
-    text: "There are background transitions and sprite transitions."
+    text: "Let’s create the best case scenario."
   },
   {
-    text: "By default, the transitions fade in out with the sprites transitioning faster than the backgrounds."
+    text: "Let us give the future generation a white snowy christmas."
   },
-  { text: "Here is the default background change..." },
+  { text: "This could be created with RCP 2.6" },
   { bg: entrance },
   {
     bgTransition: "scene-change",
     bg: microphone,
-    text: "And here's the default sprite enter transition..."
+    text: "A good life!"
   },
   { sprite: bn },
-  {
-    text: "Background transitions only have fades, but sprite transitions have a bit more at the moment."
-  },
-  { text: "You can enter a sprite from the sides like this...", sprite: "" },
+
+  { text: "Let’s not be afraid that we will not have enough energy, have better agriculture,", sprite: "" },
   {
     speaker: "",
     spriteLeftTransition: "from-right-leave-left",
     spriteLeft: bn,
-    text: 'spriteLeftTransition: "from-right-leave-left", spriteLeft: require("./sprites/sprite.png")'
+    text: ' improve our health, not harm the species around us and their habitat'
   },
   {
     spriteLeftTransition: "from-right-leave-left",
     spriteLeft: "",
-    text: 'spriteLeftTransition: "from-right-leave-left"'
+    text: 'and stop the decline of glaciers and snowlines.'
   },
   {
     spriteLeftTransition: "from-left-leave-right",
     spriteLeft: bn,
-    text: "Now to move from one position to another takes a bit more work."
+    text: "The government can Keep fossil fuels in the ground. ..."
   },
   {
     spriteLeftTransition: "move-right",
@@ -167,29 +108,29 @@ let story = [
     spriteTransition: "move-right",
     sprite: bn,
     text:
-      'spriteLeftTransition: "move-right", spriteTransition: "move-right", spriteLeft: "", sprite: require("./sprites/sprite.png"),'
+      'Invest in renewable energy. ... '
   },
-  { speaker: b, text: "As you might have noticed, spriteLeft has to disappear with an empty string for this to work." },
+  { speaker: b, text: "Switch to sustainable transport. ... " },
   {
     text:
-      "Since this application uses ReactCSSTransitionGroup, it is taking advantage of the leave and enter animations to make it work."
+      "Help us keep our homes cozy. ... "
   },
   { text: "Anyway, let's continue." },
   {
     speaker: "",
     spriteRightTransition: "from-right-leave-left",
     spriteRight: bn,
-    text: 'spriteRightTransition: "from-right-leave-left"'
+    text: 'Improve farming and harm fewer animals in the process.. '
   },
   {
     spriteRightTransition: "move-left-far",
     spriteRight: "",
     spriteLeftTransition: "move-left-far",
-    spriteLeft: bh,
+    spriteLeft: bn,
     text:
-      'spriteRightTransition: "move-left-far", spriteLeftTransition: "move-left-far", spriteRight: "", spriteLeft: require("./sprites/sprite.png"),'
+      'Restore nature to absorb more carbon. ... '
   },
-  { speaker: b, text: "That's about it for now.", jumpTo: "features" },
+  { speaker: b, text: "Protect forests like the Amazon. …  ", jumpTo: "features" },
 
   // /Storing choices
   /*
@@ -219,7 +160,7 @@ let story = [
     text: "No problem."
   },
   {
-    sprite: bh,
+    sprite: bn,
     speaker: b,
     text: "Thanks.",
     jumpTo: "blockHelp"
@@ -298,7 +239,7 @@ let story = [
   // /Leave
   {
     routeBegins: "leave",
-    sprite: bh,
+    sprite: bn,
     spriteEffect: "shake",
     text: "Thank you for trying out the demo.",
     jumpTo: "title-screen"
