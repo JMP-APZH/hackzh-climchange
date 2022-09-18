@@ -20,12 +20,12 @@ const HeaderfooterLayout = ({ children }) => {
                 to={routes.home()}>Home</Link>
             </li>
 
-            <li className="text-center w-36 rounded-md font-bold bg-sky-500 hover:bg-sky-300">
+            {/* <li className="text-center w-36 rounded-md font-bold bg-sky-500 hover:bg-sky-300">
 
               <Link
               className=""
               to={routes.htmlintegration1()}>HTML Integration</Link>
-            </li>
+            </li> */}
 
             {/* <li className="text-center w-36 rounded-md font-bold bg-sky-500 hover:bg-sky-300">
               <Link to={routes.newUser()}>New User</Link>
