@@ -31,21 +31,41 @@ A good life!
 
 Let’s create the best case scenario.
 Let’s not be afraid that we will not have enough energy, have better agriculture, improve our health, not harm the species around us and their habitat and stop the decline of glaciers and snowlines.
+
 The government can Keep fossil fuels in the ground. ...
+
 Invest in renewable energy. ...
+
 Switch to sustainable transport. ...
+
 Help us keep our homes cozy. ...
+
 Improve farming and harm fewer animals in the process...
+
 Restore nature to absorb more carbon. ...
+
 Protect forests like the Amazon. …
 
 
 And what can WE do:
+
 Save energy at home
+
 Walk, cycle or take public transport
+
 Eat more vegetables
+
 Consider your travel, airplanes burn large amounts of fossil fuels, producing significant greenhouse gas emissions. That makes taking fewer flights one of the fastest ways to reduce your environmental impact. When you can, meet virtually, take a train or skip that long-distance trip altogether.
+
 Reduce food waste
+
 Reduce, reuse, repair & recycle
 
 [YouTube video](https://youtu.be/YRXUeZEcWoA)
+
+
+**Explanation about climate change scenarios**
+
+**RCP 2.6 (best scenario)** requires that carbon dioxide (emissions start declining by 2020 and go to zero by 2100. It also requires that methane emissions go to approximately half the CH4 levels of 2020, and that sulphur dioxide emissions decline to approximately 10% of those of 1980–1990. RCP 2.6 requires negative CO2 emissions (such as CO2 absorption by trees).
+
+**RCP 8.5 (worse scenario)** emissions continue to rise throughout the 21st century. RCP8.5, generally taken as the basis for worst-case climate change scenarios, was based on what proved to be overestimation of projected coal outputs. It is still used for predicting mid-century (and earlier) emissions based on current and stated policies.
