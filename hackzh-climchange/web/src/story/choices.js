@@ -3,12 +3,12 @@ var choices = [
     choices: [
       {
         routeBegins: "showEffects",
-        content: "Effects",
+        content: "Worst Case Scenario",
         nextIndex: 0
       },
       {
         routeBegins: "showTransitions",
-        content: "Transitions",
+        content: "Best Case Scenario",
         nextIndex: 0
       },
     /*
