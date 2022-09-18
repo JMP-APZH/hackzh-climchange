@@ -11,12 +11,12 @@ var choices = [
         content: "Transitions",
         nextIndex: 0
       },
-
+    /*
       {
         routeBegins: "showStoringChoices",
         content: "Storing choices for future use",
         resetStore: "true"
-      },
+      }, */
       {
         routeBegins: "leave",
         content: "Leave"

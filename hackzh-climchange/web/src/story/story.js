@@ -192,6 +192,7 @@ let story = [
   { speaker: b, text: "That's about it for now.", jumpTo: "features" },
 
   // /Storing choices
+  /*
   {
     spriteLeft: "",
     routeBegins: "showStoringChoices",
@@ -292,6 +293,8 @@ let story = [
     jumpTo: "features"
   },
 
+  */
+ 
   // /Leave
   {
     routeBegins: "leave",
