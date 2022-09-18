@@ -1,10 +1,8 @@
 # ClimateQuest
 
 
-![](reports/img/pic01.jpg)
+![](/Analysis/plots_png/switzerland-mascot-with-pointing-right-gesture-vector.png)
 
-
-#### -- Project Status: [/Analysis/plots_png/switzerland-mascot-with-pointing-right-gesture-vector.png]
 
 ## Project Intro
 Hackathon Zurich 2022, Make climate change tangible with Swiss open data in collaboration with the Bundesamt
